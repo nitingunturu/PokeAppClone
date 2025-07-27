@@ -5,7 +5,6 @@ import TypeCalculator from './Components/Type-Calculator/TypeCalculator';
 import SearchPokemon from './Components/Search-Pokemon/Search/Search';
 import SearchMove from './Components/Search-Move/SearchMove';
 import TeamBuilder from './Components/TeamBuilder/TeamBuilder';
-import OlderVersions from './Components/Older-Versions/OlderVersions';
 import './Assets/TypeColors.css';
 import {
   BrowserRouter as Router,
@@ -34,9 +33,6 @@ function App() {
         </Route>
         <Route path="/teambuilder">
           <TeamBuilder/>
-        </Route>
-        <Route path="/older-versions">
-          <OlderVersions/>
         </Route>
         <Route path="/">
           <Home/>
