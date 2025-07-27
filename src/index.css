@@ -1,0 +1,84 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 10px;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0px; padding: 0px;
+  min-width: 200px;
+}
+html, body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:  #121212;
+  color: #fafafa;
+  height: 100%; margin: 0px; padding: 0px;
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.full-height {
+  height:100%;
+}
+
+.full-width {
+  width:100%;
+}
+
+.poke-builder {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.search-teambuilder {
+  min-width: 100px;
+  max-width: 200px;
+  height: 5vh;
+  width: 10vw;
+  min-height: 10px;
+  max-height: 65px;
+}
+
+.search-text {
+  min-height: 40px;
+  width: 100%;
+}
+
+.builder-textdiv {
+  min-height: calc(30px + 1vw);
+  width: 100%;
+}
+
+.builder-text {
+  font-size:calc(20px + 1vw);
+  font-weight: 100;
+  margin: 0;
+}
+
+.centered-text {
+  text-align: center;
+}
