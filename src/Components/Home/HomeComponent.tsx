@@ -13,13 +13,7 @@ import {
 } from './HomeStyles';
 
 const Home: React.FC<{}> = () => {
-    const history = useHistory();
-    var max = Quotes.length;
-    var rand =  Math.floor(Math.random() * Math.floor(max));
-    const clickHandler = () => {
-      history.push(`/older-versions`);
-    }
-    return (
+   return (
       <>
       <HomeContainer>
           <Container>
@@ -30,7 +24,7 @@ const Home: React.FC<{}> = () => {
                       <Title>PokeApp</Title>
                   </Col>
                   <Col xs={12}>
-                      <Text>{Quotes[rand]}</Text>
+                      <Text>{Quotes[0]}</Text>
                   </Col>
                 </Row>
               </Col>
@@ -41,11 +35,6 @@ const Home: React.FC<{}> = () => {
         <div className="full-height container-fluid">
           <Row className="align-items-center">
             <Col>
-              <Row className="justify-content-center">
-                <Col xs={12}>
-                    <FooterLink onClick={clickHandler}>Older Versions</FooterLink>
-                </Col>
-              </Row>
             </Col>
           </Row>
         </div>
